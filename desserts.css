@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/*****navbar*****/
+.header{
+  width:100%;
+  display:flex;
+  height: 72px;
+  align-items:center;
+  position: fixed;
+  top:0;
+  background-color: #FAFBED;
+  z-index:100;
+}
+
+.logo{
+  margin-top:5px;
+
+}
+
+.flex1{
+  display: flex;
+  flex:1;
+  flex-grow:1;
+}
+
+.nav-right{
+  display:block;
+}
+
+
+
+
+h1 {
+font-family: 'adelle', serif;
+font-style: normal;
+font-weight: Bold;
+font-size: 40px;
+line-height: 50px;
+}
+
+.dessertstitle{
+  color:#F9F9E8;
+  margin-top:100px;
+  text-align:center;
+}
+
+#dessertspage.desserts-content-box{
+  background-color:#F9F9E8;
+}
+
+
+.desserts-content-box{
+  display:flex;
+  min-height:70vh;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding:80px 0;
+  overflow-x:hidden;
+}
+
+.desserts-page-container{
+  display:flex;
+  flex-direction:row;
+}
+
+.desserts-page-container > div{
+  max-width:600px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.flex-left{
+  width:100%;
+  align-items:top;
+}
+
+p{
+  font-family: 'adelle', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0;
+  display:block;
+
+}
+
+.paragraph{
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom:10%;
+}
+
+.titlebar{
+  background:#D2523C;
+  padding:20px;
+  text-align:center;
+}
+
+
+/********* footer *********/
+.footer{
+  padding:5px;
+  text-align:center;
+  background:#D2523C;
+}
+
+.footertext{
+  color:#FAFBED;
+  font-size:30px;
+}
+
+
+/* Media Quaries */
+
+@media only screen and (max-width:960px){
+  .desserts-page-container{
+    flex-direction:column;
+  }
+}
